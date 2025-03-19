@@ -1,5 +1,5 @@
 robot = loadrobot('universalUR5', 'DataFormat', 'column');
-q = zeros(6,1); % 初始關節角度
+q = zeros(6,1); 
 J = geometricJacobian(robot, q, 'tool0');
 J_pinv = pinv(J);
 v_des = [0.1; 0; 0; 0; 0; 0];
