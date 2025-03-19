@@ -1,0 +1,2 @@
+initRobotModelParam;
+open_system('IntelligentBinPicking_Harness.slx')
